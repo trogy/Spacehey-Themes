@@ -1,0 +1,144 @@
+<style>
+/* Modern.css SpaceHey CSS Stylesheet by Trogy.NZ */
+/* Author: Marc Anderson [Trogy.NZ */
+/* License: Boost Software License - Version 1.0 with "Commons Clause” License Condition v1.0*/
+/* https://github.com/trogy/Spacehey-Themes */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css');
+body{
+  background-image: url(https://dev.trogy.nz/camp-4363073.svg) !important;
+  background-size: cover;
+  background-attachment: fixed;
+}
+main{
+  animation: fadeIn;
+  animation-duration: 2s;
+  margin-top:5px;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, .15);
+  backdrop-filter: blur(5px);
+}
+.blurbs{
+  background-color: white;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.friends{
+  background-color: white;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.profile h1{
+  background-color: white;
+  padding: 5px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.mood{
+  padding: 5px;
+  background-color: white;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.copyright a{
+  color:black !important;
+}
+.links{
+  text-align: center;
+}
+.links li{
+  background-color:#2D3142;
+  border-radius:5px;
+  overflow:hidden;
+  padding: 5px;
+}
+.links a:hover{
+  color:white !important;
+}
+footer a{
+  color:white !important;
+}
+.links li:not(:last-child)::after {
+  content: "" !important;
+}
+footer{
+  animation: fadeInUp;
+  animation-duration: 2s;
+}
+input[type=text] {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 16px;
+  background-color: white;
+}
+button[type=submit]{
+  background-color: #e7e7e7; color: black;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  padding: 4px;
+  color:#2D3142;
+}
+.logout-btn{
+  color:white !important;
+}
+:root {
+  --logo-blue: #2D3142;
+  --darker-blue: #404040;
+  --lighter-blue: #ADACB5;
+  --even-lighter-blue: #ccc;
+  --lightest-blue: #e3e3e3;
+  --dark-orange: #f7f7f7;
+  --light-orange: #2D3142;
+  --even-lighter-orange: #404040;
+  --green: #38d;
+}
+nav{
+  margin-top:5px;
+  animation: fadeInDown;
+  animation-duration: 2s;
+}
+.top {
+  border-radius: 5px;
+  overflow: hidden;
+  margin-bottom:5px;
+}
+.links{
+  border-radius: 5px;
+  overflow: hidden;
+}
+.profile{
+  animation: fadeIn;
+  animation-duration: 4s;
+}
+.profile-pic {
+  border-radius: 5px;
+  overflow: hidden;
+}
+.heading {
+  -webkit-border-top-left-radius: 5px;
+  -webkit-border-top-right-radius: 5px;
+  -moz-border-radius-topleft: 5px;
+  -moz-border-radius-topright: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  overflow: hidden;
+}
+.contact {
+  background-color: white;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.url-info {
+  background-color: white;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.table-section {
+  background-color: white;
+  border-radius: 5px;
+  overflow: hidden;
+}
+</style>
